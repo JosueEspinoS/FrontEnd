@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Realiza el pedido
+    
+    <form action="pedido.js">
+
+        <label for="Nombre">Ingresa tu nombre, Taconauta:</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre...">
+        <br><br>
+        <label for="Mesa">No. Mesa: </label>
+        <input type="number" name="Mesa" id="Mesa" placeholder="1,2,3,4..." min="1" max="10">
+        <br><br>
+        <p>Para aquí o para llevar?</p>
+        <label for="Aqui">Aquí</label>
+        <input type="radio" name="aquiOLlevar" id="Aqui" value="Aqui"> <br>
+        <label for="Llevar">Llevar</label>
+        <input type="radio" name="aquiOLlevar" id="Llevar" value="Llevar">
+        <br><br>
+        <p>Tacos de qué</p>
+        <input type="checkbox" name="Mercurio" id="Mercurio" placeholder="Cuántos?">
+        <label for="Mercurio">Mercurio</label>
+        <input type="number" name="mercurioCuantos" id="mercurioCuantos" min="1" max="10">
+        <br><br>
+
+        <input type="checkbox" name="Venus" id="Venus" placeholder="Cuántos?">
+        <label for="Venus">Venus</label>
+        <input type="number" name="venusCuantos" id="venusCuantos" min="1" max="10">
+        <br><br>
+        <p>y para tomar?</p>
+
+        <select name="refresco" id="refresco">
+            <option value="Fanta">Fanta</option>
+            <option value="Manzana">Manzana</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Sangria">Sangria</option>
+            <option value="Boing de Mango">Boing de Mango</option>
+            <option value="Boing de Guayaba">Boing de Guayaba</option>
+        </select>      
+
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+       
+    </form>
+    
+</body>
+</html>
