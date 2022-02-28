@@ -1,8 +1,5 @@
-# Practicas de Intro a Frontend
 
-Para las practicas de esta semana tendrán el siguiente caso y a raiz de eso sacar los puntos mencionados abajo.
-
-**Caso: Abogabot**
+# Abogabot
 Descripción: 
 - Es un despacho de abogados que quiere automatizar las demandas de sus clientes, esto lo harán a traves de una página web llenando un formulario.
 - Al momento de llenar el formulario se manda al proceso de pago para finalizar la transacción.
